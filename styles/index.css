@@ -114,3 +114,7 @@ h3 {
   flex-direction: column;
   gap: 30px;
 }
+.about__inner {
+  display: flex;
+  gap: 20px;
+}
