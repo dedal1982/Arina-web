@@ -43,6 +43,13 @@ h1 {
   color: #ffffff;
 }
 h2 {
+  font-family: "Plus Jakarta Sans", serif;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 60.48px;
+  color: #000000;
+}
+h3 {
   font-family: "Roboto", serif;
   font-weight: 400;
   font-size: 64px;
@@ -92,5 +99,18 @@ h2 {
   flex-direction: column;
   margin-top: 103px;
 }
-.hero__text img {
+.hero__wrapper img {
+  width: 434px;
+  height: 468px;
+}
+.about {
+  width: 100%;
+}
+.about__wrapper {
+  padding-top: 123px;
+  padding-bottom: 69px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
 }
