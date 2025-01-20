@@ -29,12 +29,25 @@ button {
 
 /* font-family: "Plus Jakarta Sans", serif; */
 .page {
-  font-family: "Roboto", serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   -webkit-text-size-adjust: 100%;
   -ms-text-size-adjust: 100%;
   -moz-text-size-adjust: 100%;
+}
+h1 {
+  font-family: "Roboto", serif;
+  font-weight: 400;
+  font-size: 96px;
+  line-height: 112.5px;
+  color: #ffffff;
+}
+h2 {
+  font-family: "Roboto", serif;
+  font-weight: 400;
+  font-size: 64px;
+  line-height: 75px;
+  color: #ffffff;
 }
 .container {
   max-width: 1366px;
@@ -50,7 +63,34 @@ button {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding-left: 75px;
-  padding-right: 75px;
+  padding: 32px 75px 27px 75px;
   box-sizing: border-box;
+}
+.header__wrapper a {
+  font-family: "Plus Jakarta Sans", serif;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 25.2px;
+  color: #000000;
+  text-transform: uppercase;
+}
+.hero {
+  width: 100%;
+  background: #000000;
+}
+.hero__wrapper {
+  max-width: 1366px;
+  width: 100%;
+  padding: 108px 127px 108px 76px;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-between;
+  gap: 120px;
+}
+.hero__text {
+  display: flex;
+  flex-direction: column;
+  margin-top: 103px;
+}
+.hero__text img {
 }
