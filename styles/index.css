@@ -56,6 +56,13 @@ h3 {
   line-height: 75px;
   color: #ffffff;
 }
+h4 {
+  font-family: "Roboto", serif;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 56.25px;
+  color: #ffffff;
+}
 p {
   font-family: "Roboto", serif;
   font-weight: 400;
@@ -171,4 +178,30 @@ p {
 .about__end p {
   max-width: 266px;
   width: 100%;
+}
+.footer {
+  width: 100%;
+  background: #000000;
+}
+.footer__wrapper {
+  padding-top: 100px;
+  padding-bottom: 228px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+}
+.footer__list {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  margin-top: 96px;
+}
+.footer__list li p {
+  color: #ffffff;
+}
+.footer__desc {
+  max-width: 387px;
+  width: 100%;
+  color: #ffffff;
+  margin-top: 94px;
 }
